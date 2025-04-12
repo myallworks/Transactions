@@ -13,7 +13,7 @@ A secure Android application that demonstrates:
 
 ### Core Features
 ✅ **Secure Authentication**  
-- Biometric (fingerprint/face) login
+- Biometric  login
 - Encrypted credential storage
 
 ✅ **Transaction Management**  
@@ -62,8 +62,6 @@ Default credentials:
 
 The app provides powerful search capabilities:
 - **Search by Transaction ID**: Enter full or partial ID
-- **Search by Description**: Type any text from description
-- **Real-time Filtering**: Results update as you type
 
 Search works in both:
 - Online mode (filters API results)
@@ -109,9 +107,3 @@ android {
 - **Code Quality**: Modular, well-structured codebase
 - **Security**: EncryptedSharedPreferences for tokens
 - **UX**: Intuitive interface with search capabilities
-
-## Screenshots
-[Include screenshots of main screens if available]
-
-## License
-[MIT License] - See LICENSE file for details

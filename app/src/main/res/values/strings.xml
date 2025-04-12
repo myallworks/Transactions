@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Transaction App</string>
+    <string name="login_title">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me (Biometric login)</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="biometric_auth_title">Authenticate</string>
+    <string name="biometric_auth_subtitle">Use your biometric credential to access your transactions</string>
+    <string name="cancel">Cancel</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="authentication_failed">Authentication failed. Please try again.</string>
+</resources>

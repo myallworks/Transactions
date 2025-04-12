@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements BiometricAuthHelp
 
     private void fetchFromApi() {
         String token = tokenManager.getToken();
-        if (token == null) {
+        if (token == null || token.isEmpty()) {
             returnToLogin();
             return;
         }

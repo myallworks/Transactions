@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class LoginResponse {
     @SerializedName("token")
-    private final String token = "";
+    private String token = null ;
 
     public String getToken() {
         return token != null ? token : "";
